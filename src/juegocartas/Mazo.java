@@ -26,6 +26,10 @@ public class Mazo {
         Carta tmp = this.mazo.get(0);
         this.mazo.remove(0);
         return tmp;
+
+
+
+        
     }
 
     private void generateMazo(){
