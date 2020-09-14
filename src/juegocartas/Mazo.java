@@ -11,8 +11,8 @@ public class Mazo {
     private boolean isComodin;
 
     public Mazo(int numMazos, boolean isComodin) {
-        this.numMazos = numMazos;
-        this.isComodin = isComodin;
+        this.setNumMazos(numMazos);
+        this.setComodin(isComodin);
         this.mazo = new LinkedList<>();
         this.reset();
     }
